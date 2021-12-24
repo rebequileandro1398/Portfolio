@@ -9,7 +9,7 @@ export const Landing = () => {
             <div className={styles.part1}>
                 <h1 className={styles.title1}>LEAN</h1>
                 <p className={styles.title2}>DRO</p>
-            </div>
+        </div>
             <Link to='/home'>
                 <button className={styles.btn}>{'>>'}</button>
             </Link>

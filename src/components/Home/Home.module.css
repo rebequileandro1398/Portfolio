@@ -1,0 +1,63 @@
+.Home{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items:  center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: .6em;
+    width: 40em;
+    height: 20em;
+    padding: 1em;
+    color: white;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: transparent;
+    border-color: white;
+    border-radius: .5em;
+    color: white;
+    width: 3em;
+    padding: .5em;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1em;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    width: 3.5em;
+}
+.link{
+    text-decoration: none;
+}
+.image{
+    border-radius: .5em;
+    width: 15em;
+    margin-left: 1em;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: .5em;
+    width: 15em;
+    height: 9.7em;
+    margin: 1em;
+}
+.icon{
+    margin-bottom: .2em;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

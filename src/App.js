@@ -13,6 +13,7 @@ function App() {
         exact path='/'
         component={Landing}
       />
+      
       <Route
         exact path='/home'
         component={Home}
