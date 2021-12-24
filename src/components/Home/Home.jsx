@@ -19,16 +19,24 @@ export const Home = () => {
                     <div className={styles.left}>
                     <img className={styles.image} src={code} alt="not found"/>
                     <div className={styles.contact}>
-                         <img className={styles.icon} src={github} alt="not found"/>
-                         <img className={styles.icon} src={linkedin} alt="not found"/>
-                         <img className={styles.icon} src={gmail} alt="not found"/>
+                        <a href="https://github.com/rebequileandro1398" target="_blank">
+                             <img className={styles.icon} src={github} alt="not found"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/leandro-rebequi-dev/" target='_blank'>
+                             <img className={styles.icon} src={linkedin} alt="not found" target="_blank"/>
+                        </a>
+                        <a href="mailto:rebequileandro@gmail.com" target='_blank'>
+                             <img className={styles.icon} src={gmail} alt="not found"/>
+                        </a>
+                        <a href="https://wa.me/+5493435442575" target='_blank'>
                          <img className={styles.icon} src={whatsapp} alt="not found"/>
+                        </a>
                     </div>
                     </div>
                     <div className={styles.container}>
                         <h1>Acerca de mí</h1>
                         <p style={{fontSize: '1.4em'}}>Soy un desarrollador full-stack orientado al front-end.<br/>
-                            Realize el Bootcamp de Soy Henry el cual me llevo a conocer las ultimas tecnologias 
+                            Realize el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologias 
                             que se manejan actualmente en el mundo IT
                         </p>
                     </div>

@@ -29,17 +29,14 @@ export const ParticlesComponent = () => {
                 onClick: { enable: true, mode: "push" },
                 onHover: {
                     enable: true,
-                    mode: "grab"
+                    mode: "repulse",
+                    parallax: { enable: false, force: 60, smooth: 10 }
                 },
                 resize: true
                 },
                 modes: {
-                    grab: {
-                        distance: 140,
-                        line_linked: {
-                          opacity: 0.1
-                        }
-                    }
+                push: { quantity: 4 },
+                repulse: { distance: 200, duration: 0.4 }
                 }
             },
             particles: {
@@ -57,7 +54,7 @@ export const ParticlesComponent = () => {
                     enable: true,
                     area: 800
                 },
-                value: 50
+                value: 90
                 },
                 opacity: {
                 animation: {
