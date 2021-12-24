@@ -7,13 +7,16 @@
 }
 
 .container{
-    background-color: rgba(255, 255, 255, 0.151);
+    background-color: rgba(117, 117, 117, 0.062);
     border-radius: .6em;
     width: 40em;
     height: 20em;
     padding: 1em;
     color: white;
     font-family: sans-serif;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.404);
 }
 .btn{
     background-color: transparent;
@@ -41,16 +44,20 @@
     border-radius: .5em;
     width: 15em;
     margin-left: 1em;
+    opacity: 0.8;
 }
 .contact{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.151);
+    background-color: rgba(117, 117, 117, 0.062);
     border-radius: .5em;
     width: 15em;
     height: 9.7em;
     margin: 1em;
+}
+.contact:hover{
+    background-color: rgba(36, 31, 46, 0.404);
 }
 .icon{
     margin-bottom: .2em;
@@ -58,6 +65,7 @@
 }
 .icon:hover{
     opacity: 1;
+    width: 3.1em;
 }
 .left{
     display: flex;
