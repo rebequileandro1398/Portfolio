@@ -1,0 +1,41 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58em;
+    height: 20em;
+    background-color: rgba(117, 117, 117, 0.062);
+    border-radius: .6em;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.carousel{
+    width: 55em;
+    margin: 3em;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: .5em;
+    border-color: white;
+    color: white;
+    height: 3em;
+    width: 4em;
+    align-self: center;
+    margin:1em;
+}.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.pagination{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    width: .5em;
+    height: .5em;
+
+}
