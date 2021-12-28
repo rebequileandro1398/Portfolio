@@ -37,15 +37,22 @@ export const MyProjects = () => {
             renderPagination={pagination}
             renderArrow={myArrow}
             itemsToShow={1}
-            enableAutoPlay 
-            autoPlaySpeed={4000}
             easing="cubic-bezier(1,.15,.55,1.54)"
             tiltEasing="cubic-bezier(0.110, 1, 1.000, 0.210)"
             transitionMs={700}>
                 {Items.map(e => (
-                    <div>
-                        <img style={{width: '20em'}} src={e.src} alt={e.alt}/>
-                        <span>{e.desc}</span>
+                    <div className={styles.card}>
+                        <iframe 
+                          className={styles.frame}
+                          title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen
+                          src={e.src + '?autohide=1'}>
+                        </iframe>
+                        <a style={{textDecoration: 'none'}}  href={e.web} target="_blank">
+                          <span className={styles.span}>{e.desc}</span>  
+                        </a>
                     </div>
                     ))}
            </Carousel>
