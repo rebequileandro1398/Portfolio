@@ -42,8 +42,11 @@ export const Home = () => {
                         <div className={styles.container}>
                             <h1>Acerca de mí</h1>
                             <p style={{fontSize: '1.4em'}}>Soy un desarrollador full-stack orientado al front-end.<br/>
-                                Realize el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologias 
-                                que se manejan actualmente en el mundo IT
+                                Realice el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologías  
+                                que se manejan actualmente en el mundo IT. <br/>
+                                <br/>
+                                En la siguiente sección podrás encontrar algunos proyectos en los que he trabajado,
+                                clickea en el nombre para ir al proyecto.
                             </p>
                         </div>
                     </div>
