@@ -50,6 +50,7 @@
     width: 15em;
     padding: 2em;
     font-weight: bold;
+    transition: 0.3s;
 }
 .btn:hover{
     background-color: rgb(255, 255, 255);

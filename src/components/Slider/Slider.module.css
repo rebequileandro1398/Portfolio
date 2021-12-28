@@ -8,6 +8,7 @@
     background-color: rgba(117, 117, 117, 0.062);
     border-radius: .6em;
     margin-bottom: 1em;
+    overflow: hidden;
 }
 .container:hover{
     background-color: rgba(0, 0, 0, 0.404);
@@ -28,6 +29,7 @@
     width: 4em;
     align-self: center;
     margin:1em;
+    transition: 0.3s;
 }.btn:hover{
     background-color: white;
     color: black;
@@ -50,11 +52,17 @@
     width: 570px;
     height: 359px;
     margin-bottom: .5em;
+    transition: 0.4s;
+}
+.frame:hover{
+    width: 670px;
+    height: 459px;
 }
 .span{
     font-size: 2em;
     color: rgba(255, 255, 255, 0.575);
     font-family: sans-serif;
+    transition: 0.3s;
 }
 .span:hover{
     color: white;
