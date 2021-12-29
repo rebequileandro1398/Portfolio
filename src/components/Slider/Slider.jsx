@@ -41,7 +41,7 @@ export const MyProjects = () => {
             tiltEasing="cubic-bezier(0.110, 1, 1.000, 0.210)"
             transitionMs={700}>
                 {Items.map(e => (
-                    <div className={styles.card}>
+                    <div className={styles.card} key={e.id}>
                         <iframe 
                           className={styles.frame}
                           title="YouTube video player"
