@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import Carousel, { consts } from 'react-elastic-carousel';
 import { Items } from './Projects';
 import styles from './Slider.module.css'
-import ReactModal from 'react-modal';
+import Modal from 'react-modal';
 
 export const MyProjects = () => {
   const [isOpen, setIsOpen] = useState(false)
-
+  console.log(isOpen)
 
   const myArrow = ({ type, onClick, isEdge }) => {
         const pointer = type === consts.PREV ? '<<' : '>>'
@@ -53,7 +53,26 @@ export const MyProjects = () => {
                           allowfullscreen
                           src={e.src + '?autohide=1'}>
                         </iframe>
-                        <button className={styles.btnpopUp}>{e.desc}</button>
+                        <button className={styles.btnpopUp} onClick={()=> setIsOpen(true)}>{e.name}</button>
+                        <Modal 
+                          closeTimeoutMS={200}
+                          isOpen={isOpen}
+                          style={{
+                            content : { 
+                              top : '50% ' , 
+                              left : '50%' , 
+                              right : 'auto' , 
+                              bottom : 'auto' , 
+                              marginRight : '-50%' , 
+                              transform : 'translate (-50%, -50%) ' , 
+                            } 
+                          }}>
+                        <div>
+                          <h1>{e.name}</h1>
+                          <button onClick={() => setIsOpen(false)}>X</button>
+                        </div>
+
+                        </Modal>
                     </div>
                     ))}
            </Carousel>
