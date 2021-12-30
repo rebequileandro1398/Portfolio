@@ -55,23 +55,37 @@ export const MyProjects = () => {
                         </iframe>
                         <button className={styles.btnpopUp} onClick={()=> setIsOpen(true)}>{e.name}</button>
                         <Modal 
+                          onRequestClose={()=> setIsOpen(false)}
+                          shouldCloseOnOverlayClick={true}
                           closeTimeoutMS={200}
                           isOpen={isOpen}
                           style={{
+                            overlay: {
+                              backgroundColor: 'rgba(0, 0, 0, 0.25)',
+                              position: 'fixed',
+                              top: 0,
+                              left: 0,
+                              right: 0,
+                              bottom: 0,
+                            },
                             content : { 
-                              top : '50% ' , 
-                              left : '50%' , 
-                              right : 'auto' , 
-                              bottom : 'auto' , 
-                              marginRight : '-50%' , 
-                              transform : 'translate (-50%, -50%) ' , 
+                              position: 'absolute',
+                              top: '10em',
+                              left: '10em',
+                              right: '10em',
+                              bottom: '10em',
+                              border: '1px solid #ccc',
+                              overflow: 'auto', 
+                              borderRadius: '.5em',
+                              outline: 'none',
+                              background: 'rgba(0, 0, 0, 0.84)',
+                              padding: '1em',
                             } 
                           }}>
-                        <div>
+                        <div className={styles.modal}>
                           <h1>{e.name}</h1>
                           <button onClick={() => setIsOpen(false)}>X</button>
                         </div>
-
                         </Modal>
                     </div>
                     ))}
