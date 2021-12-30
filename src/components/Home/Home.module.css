@@ -53,7 +53,7 @@
 .image{
     border-radius: .5em;
     width: 15em;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .contact{
     display: flex;
@@ -70,6 +70,7 @@
 .icon{
     margin-bottom: .2em;
     opacity: 0.7;
+    transition: 0.3s;
 }
 .icon:hover{
     opacity: 1;

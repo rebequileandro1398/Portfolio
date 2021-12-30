@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Carousel, { consts } from 'react-elastic-carousel';
 import { Items } from './Projects';
 import styles from './Slider.module.css'
+import ReactModal from 'react-modal';
 
 export const MyProjects = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
 
   const myArrow = ({ type, onClick, isEdge }) => {
         const pointer = type === consts.PREV ? '<<' : '>>'
@@ -50,9 +53,7 @@ export const MyProjects = () => {
                           allowfullscreen
                           src={e.src + '?autohide=1'}>
                         </iframe>
-                        <a style={{textDecoration: 'none'}}  href={e.web} target="_blank">
-                          <span className={styles.span}>{e.desc}</span>  
-                        </a>
+                        <button className={styles.btnpopUp}>{e.desc}</button>
                     </div>
                     ))}
            </Carousel>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Home.module.css'
 import code from '../../assets/code.gif'
@@ -7,6 +7,7 @@ import gmail from '../../assets/gmail.png'
 import linkedin from '../../assets/linkedin.png'
 import whatsapp from '../../assets/whatsapp.png'
 import { MyProjects } from '../Slider/Slider'
+
 export const Home = () => {
     return (
         <div>
