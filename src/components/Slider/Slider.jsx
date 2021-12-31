@@ -51,7 +51,13 @@ export const MyProjects = () => {
                           allowfullscreen
                           src={e.src + '?autohide=1'}>
                         </iframe>
-                        <PopUp desc={e.desc} name={e.name}/>
+                        <PopUp 
+                        desc={e.desc} 
+                        name={e.name} 
+                        web={e.web} 
+                        web2={e.web2}
+                        repo={e.repo}
+                        />
                     </div>
                     ))}
            </Carousel>

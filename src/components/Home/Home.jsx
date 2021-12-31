@@ -47,7 +47,7 @@ export const Home = () => {
                                 que se manejan actualmente en el mundo IT. <br/>
                                 <br/>
                                 En la siguiente sección podrás encontrar algunos proyectos en los que he trabajado,
-                                clickea en el nombre para ir al proyecto.
+                                clickea sobre el nombre para ver mas detalles .
                             </p>
                         </div>
                     </div>

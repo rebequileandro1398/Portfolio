@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './Slider.module.css'
 import Modal from 'react-modal';
 
-export const PopUp = ({name, desc}) => {
+export const PopUp = ({name, desc, web, web2, repo}) => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
@@ -31,7 +31,7 @@ export const PopUp = ({name, desc}) => {
                 overflow: 'auto', 
                 borderRadius: '.5em',
                 outline: 'none',
-                background: 'rgba(0, 0, 0, 0.97)',
+                background: 'rgba(0, 0, 0, 0.96)',
                 padding: '1em',
             } 
             }}>
@@ -41,6 +41,26 @@ export const PopUp = ({name, desc}) => {
         </div>
         <div className={styles.modalBody}>
             <p>{desc}</p>
+        </div>
+        <div>
+            {
+                web2 ? 
+                <div>
+                    <a href={web2} target='_blank'>
+                        <button>deploy</button>
+                    </a>
+                    <a href={web} target='_blank'>
+                        <button>mobile</button>
+                    </a>
+                </div>
+                :
+                <a href={web} target='_blank'>
+                    <button>deploy</button>
+                </a>
+            }
+            <a href={repo} target="_blank">
+                <button>Repositorio</button>
+            </a>
         </div>
         </Modal>
         </div>

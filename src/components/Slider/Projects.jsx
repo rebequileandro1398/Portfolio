@@ -4,8 +4,10 @@ export const Items = [
     {
         src: "https://www.youtube.com/embed/gXtg8IngScg",
         alt:'proyecto 4',
-        name:'PoketFit',
+        name:'PocketFit',
+        repo:"https://github.com/rebequileandro1398/PocketFit",
         web: "https://snack.expo.dev/@lheitt/pocketfit-app",
+        web2:"https://pocketgym.vercel.app/login",
         id: "1",
         desc:`PocketFit es una aplicación creada para la administración de
         gimnasios desarrollada en React.js y Redux por la parte del
@@ -16,6 +18,7 @@ export const Items = [
         src: "https://www.youtube.com/embed/rXOETtXZOAc",
         alt:'proyecto 3',
         name:'WeatherApp',
+        repo:"https://github.com/rebequileandro1398/vercelWeatherApp",
         web: 'https://vercel-weather-app.vercel.app/',
         id: "2",
         desc:`En esta App podrás consultar el clima de cualquier parte del mundo, así como sus coordenadas 
@@ -26,6 +29,7 @@ export const Items = [
         src: "https://www.youtube.com/embed/WDtV_DV-DzQ",
         alt:'proyecto 1',
         name:'PI-Countries',
+        repo:"https://github.com/rebequileandro1398/PI-Countries",
         web:'https://pi-countries-beta.vercel.app/',
         id: "3",
         desc: `El objetivo principal de este proyecto fue poder desarrollar una
@@ -41,6 +45,7 @@ export const Items = [
         src: "https://www.youtube.com/embed/cFri3TfW-ho",
         alt:'proyecto 2',
         name:'Pex Gallery',
+        repo:"https://github.com/rebequileandro1398/Galeria-Pexels-R-N-",
         id: "4",
         desc:`Su principal función es poder buscar imágenes libres de derechos de autor y poder descargarlas 
         en tu dispositivo, también se pude visitar el perfil del autor mediante un navegador que se abre directamente 
