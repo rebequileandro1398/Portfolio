@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './Slider.module.css'
 import Modal from 'react-modal';
 
-export const PopUp = ({name}) => {
+export const PopUp = ({name, desc}) => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
@@ -14,7 +14,7 @@ export const PopUp = ({name}) => {
             isOpen={isOpen}
             style={{
             overlay: {
-                backgroundColor: 'rgba(0, 0, 0, 0.25)',
+                backgroundColor: 'rgba(0, 0, 0, 0.60)',
                 position: 'fixed',
                 top: 0,
                 left: 0,
@@ -24,20 +24,23 @@ export const PopUp = ({name}) => {
             content : { 
                 position: 'absolute',
                 top: '10em',
-                left: '13em',
-                right: '13em',
+                left: '12em',
+                right: '12em',
                 bottom: '10em',
                 border: '1px solid #ccc',
                 overflow: 'auto', 
                 borderRadius: '.5em',
                 outline: 'none',
-                background: 'rgba(0, 0, 0, 0.84)',
+                background: 'rgba(0, 0, 0, 0.97)',
                 padding: '1em',
             } 
             }}>
         <div className={styles.modal}>
-            <h1>{name}</h1>
+            <h2 style={{marginTop: "-0.2em"}}>{name}</h2>
             <button className={styles.btnClose} onClick={() => setIsOpen(false)}>X</button>
+        </div>
+        <div className={styles.modalBody}>
+            <p>{desc}</p>
         </div>
         </Modal>
         </div>
