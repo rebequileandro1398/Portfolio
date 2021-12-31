@@ -71,8 +71,8 @@ export const MyProjects = () => {
                             content : { 
                               position: 'absolute',
                               top: '10em',
-                              left: '10em',
-                              right: '10em',
+                              left: '13em',
+                              right: '13em',
                               bottom: '10em',
                               border: '1px solid #ccc',
                               overflow: 'auto', 
@@ -84,7 +84,7 @@ export const MyProjects = () => {
                           }}>
                         <div className={styles.modal}>
                           <h1>{e.name}</h1>
-                          <button onClick={() => setIsOpen(false)}>X</button>
+                          <button className={styles.btnClose} onClick={() => setIsOpen(false)}>X</button>
                         </div>
                         </Modal>
                     </div>
