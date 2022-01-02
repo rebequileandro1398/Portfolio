@@ -97,3 +97,20 @@
     color: white;
     font-family: sans-serif;
 }
+.links{
+    background-color: transparent;
+    height: 2em;
+    color: white;
+    border-radius: .4em;
+    border-color: white;
+    margin: .5em;
+    transition: 0.3s;
+}
+.links:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.containerLinks{
+    display: flex;
+}

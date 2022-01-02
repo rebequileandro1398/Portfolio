@@ -42,24 +42,24 @@ export const PopUp = ({name, desc, web, web2, repo}) => {
         <div className={styles.modalBody}>
             <p>{desc}</p>
         </div>
-        <div>
+        <div className={styles.containerLinks}>
             {
                 web2 ? 
                 <div>
                     <a href={web2} target='_blank'>
-                        <button>deploy</button>
+                        <button className={styles.links}>deploy</button>
                     </a>
                     <a href={web} target='_blank'>
-                        <button>mobile</button>
+                        <button className={styles.links}>mobile</button>
                     </a>
                 </div>
                 :
                 <a href={web} target='_blank'>
-                    <button>deploy</button>
+                    <button className={styles.links}>deploy</button>
                 </a>
             }
             <a href={repo} target="_blank">
-                <button>Repositorio</button>
+                <button className={styles.links}>Repositorio</button>
             </a>
         </div>
         </Modal>
