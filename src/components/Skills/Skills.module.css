@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    width: 58em;
+    height: 10em;
+    background-color: rgba(117, 117, 117, 0.062);
+    border-radius: .6em;
+    margin-bottom: 1em;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: sans-serif;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.title{
+    margin: .5em;
+}

@@ -60,7 +60,7 @@ export const PopUp = ({name, desc, web, apk, repo}) => {
                 </a> 
                 :
                 <a href={web} target='_blank'>
-                    <button className={styles.links}>deploy</button>
+                    <button className={styles.links}>Web</button>
                 </a>
             }
             <a href={repo} target="_blank">

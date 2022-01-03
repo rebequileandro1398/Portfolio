@@ -7,6 +7,7 @@ import gmail from '../../assets/gmail.png'
 import linkedin from '../../assets/linkedin.png'
 import whatsapp from '../../assets/whatsapp.png'
 import { MyProjects } from '../Slider/Slider'
+import { Skills } from '../Skills/Skills'
 
 export const Home = () => {
     return (
@@ -53,7 +54,10 @@ export const Home = () => {
                     </div>
                 </div>
                 <div style={{width: '100%', display: 'flex', justifyContent: 'center'}}>
-                 <MyProjects/>
+                    <MyProjects/>
+                </div>
+                <div>
+                    <Skills/>
                 </div>
             </div>
         </div>
