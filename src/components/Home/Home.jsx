@@ -28,7 +28,7 @@ export const Home = () => {
                                     <img className={styles.icon} src={github} alt="not found"/>
                                 </a>
                                 <a href="https://www.linkedin.com/in/leandro-rebequi-dev/" target='_blank'>
-                                    <img className={styles.icon} src={linkedin} alt="not found" target="_blank"/>
+                                    <img className={styles.icon} src={linkedin} alt="not found"/>
                                 </a>
                             </div>
                             <div className={styles.colums}>
@@ -47,7 +47,7 @@ export const Home = () => {
                                 Realice el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologías  
                                 que se manejan actualmente en el mundo IT. <br/>
                                 <br/>
-                                En la siguiente sección podrás encontrar algunos proyectos en los que he trabajado,
+                                A continuación podrás encontrar algunos proyectos en los que he trabajado,
                                 clickea sobre el nombre para ver mas detalles .
                             </p>
                         </div>

@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import { Landing } from './components/Landing/Landing';
 import { Home } from './components/Home/Home';
 import styles from './App.module.css'
-import { Slider } from './components/Slider/Slider';
 
 
 
