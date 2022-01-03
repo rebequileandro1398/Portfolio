@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './Slider.module.css'
 import Modal from 'react-modal';
 
-export const PopUp = ({name, desc, web, web2, repo}) => {
+export const PopUp = ({name, desc, web, apk, repo}) => {
     const [isOpen, setIsOpen] = useState(false)
     return (
         <div>
@@ -44,15 +44,20 @@ export const PopUp = ({name, desc, web, web2, repo}) => {
         </div>
         <div className={styles.containerLinks}>
             {
-                web2 ? 
+                apk && web ? 
                 <div>
-                    <a href={web2} target='_blank'>
-                        <button className={styles.links}>deploy</button>
-                    </a>
                     <a href={web} target='_blank'>
-                        <button className={styles.links}>mobile</button>
+                        <button className={styles.links}>Web</button>
+                    </a>
+                    <a href={apk} target='_blank'>
+                        <button className={styles.links}>Apk</button>
                     </a>
                 </div>
+                : 
+                apk ?
+                <a href={apk} target='_blank'>
+                        <button className={styles.links}>Apk</button>
+                </a> 
                 :
                 <a href={web} target='_blank'>
                     <button className={styles.links}>deploy</button>

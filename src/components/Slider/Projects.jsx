@@ -6,8 +6,8 @@ export const Items = [
         alt:'proyecto 4',
         name:'PocketFit',
         repo:"https://github.com/rebequileandro1398/PocketFit",
-        web: "https://snack.expo.dev/@lheitt/pocketfit-app",
-        web2:"https://pocketgym.vercel.app/login",
+        apk: "https://drive.google.com/file/d/1RCrVuQz6flz77w8ZoC89ns5YGXCARLw5/view?usp=sharing",
+        web:"https://pocketgym.vercel.app/login",
         id: "1",
         desc:`PocketFit es una aplicación creada para la administración de
         gimnasios desarrollada en React.js y Redux por la parte del
@@ -45,6 +45,7 @@ export const Items = [
         src: "https://www.youtube.com/embed/cFri3TfW-ho",
         alt:'proyecto 2',
         name:'Pex Gallery',
+        apk:"https://drive.google.com/file/d/1njZsVafjpozhmbsyIN_y3aO8AH9sDSHj/view?usp=sharing",
         repo:"https://github.com/rebequileandro1398/Galeria-Pexels-R-N-",
         id: "4",
         desc:`Su principal función es poder buscar imágenes libres de derechos de autor y poder descargarlas 

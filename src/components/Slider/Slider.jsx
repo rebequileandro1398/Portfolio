@@ -55,7 +55,7 @@ export const MyProjects = () => {
                         desc={e.desc} 
                         name={e.name} 
                         web={e.web} 
-                        web2={e.web2}
+                        apk={e.apk}
                         repo={e.repo}
                         />
                     </div>
