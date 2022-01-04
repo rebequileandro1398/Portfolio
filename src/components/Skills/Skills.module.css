@@ -29,3 +29,10 @@
 .image:hover{
     opacity: 1;
 }
+@media (max-width: 950px) {
+    .container{
+        width: 32em;
+        align-self: center;
+        margin-left: 1em;
+    }
+}

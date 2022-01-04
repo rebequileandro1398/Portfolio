@@ -114,3 +114,25 @@
 .containerLinks{
     display: flex;
 }
+@media (max-width: 950px) {
+    .frame{
+        width: 370px;
+        height: 159px;
+        margin-top: 1.7em;
+    }
+    .frame:hover{
+        width: 370px;
+        height: 159px;
+    }
+    .container{
+        width: 32em;
+        height: 15em;
+        align-self: center;
+        margin-right: -1em;
+    }
+    .carousel{
+        align-self: center;
+        margin: .5em;
+        width: 32em;
+    }
+}

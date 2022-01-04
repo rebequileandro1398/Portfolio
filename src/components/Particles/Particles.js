@@ -10,7 +10,6 @@ export const ParticlesComponent = () => {
       };
     
       return (
-      <div>
         <Particles
             id="tsparticles"
             init={particlesInit}
@@ -79,6 +78,5 @@ export const ParticlesComponent = () => {
             }
             }}
         />
-      </div>
       );
 }

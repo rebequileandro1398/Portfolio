@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     width: 98.7vw;
+    margin-left: -0.8em;
 }
 
 .header{
@@ -85,4 +86,29 @@
     display: flex;
     flex-direction: column;
     margin: .7em;
+}
+.general{
+    display: flex;
+}
+@media (max-width: 950px) {
+    .general{
+        flex-direction: column;
+    }
+    .left{
+        flex-direction: row;
+        align-self: center;
+        gap:1.5em
+    }
+    .image{
+        width: 12em;
+    }
+    .container{
+        width: 30em;
+        align-self: center;
+        margin-top: 1.5em;
+    }
+    .contact{
+        width: 18.5em;
+        margin-right: -1em;
+    }
 }

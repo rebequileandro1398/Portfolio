@@ -19,7 +19,7 @@ export const Home = () => {
             </div>
             <div className={styles.home}>
                 <div className={styles.header}>
-                    <div style={{display:'flex'}}>
+                    <div className={styles.general}>
                         <div className={styles.left}>
                         <img className={styles.image} src={code} alt="not found"/>
                         <div className={styles.contact}>
