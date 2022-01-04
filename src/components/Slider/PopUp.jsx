@@ -23,18 +23,19 @@ export const PopUp = ({name, desc, web, apk, repo}) => {
                 },
                 content : { 
                     position: 'absolute',
-                    top: '10em',
-                    left: '12em',
-                    right: '12em',
-                    bottom: '10em',
+                    top: '25%',
+                    left: '12%',
+                    right: '12%',
+                    bottom: '25%',
                     border: '1px solid #ccc',
                     overflow: 'auto', 
                     borderRadius: '.5em',
                     outline: 'none',
                     background: 'rgba(0, 0, 0, 0.96)',
                     padding: '1em',
-                } 
-            }}>
+                },
+                }}
+            >
                 <div className={styles.modal}>
                     <h2 style={{marginTop: "-0.2em"}}>{name}</h2>
                     <button className={styles.btnClose} onClick={() => setIsOpen(false)}>X</button>

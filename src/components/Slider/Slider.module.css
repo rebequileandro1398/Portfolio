@@ -114,6 +114,7 @@
 .containerLinks{
     display: flex;
 }
+
 @media (max-width: 950px) {
     .frame{
         width: 370px;
