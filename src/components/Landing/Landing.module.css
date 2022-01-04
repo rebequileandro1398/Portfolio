@@ -59,3 +59,22 @@
     width: 16em;
     cursor:pointer;
 }
+@media (max-width: 950px) {
+    .title{
+        font-size: 5em;
+    }
+    .title1{
+        font-size: 5em;
+    }
+    .title2{
+        font-size: 5em;
+    }
+    .title3{
+        font-size: 3em;
+    }
+    .btn{
+        width: 12em;
+        padding: 1em;
+        margin-top: 1.5em;
+    }
+}
