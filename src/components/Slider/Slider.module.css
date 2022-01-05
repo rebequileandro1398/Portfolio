@@ -136,4 +136,37 @@
         margin: .5em;
         width: 32em;
     }
+    .btn{
+        margin: 0em;
+    }
+}
+@media (max-width: 550px){
+    .container{
+        width: 21em;
+        height: 15em;
+        align-self: center;
+        margin-right: -1em;
+    }
+    .frame{
+        width: 290px;
+        height: 120px;
+        margin-top: 1.7em;
+    }
+    .frame:hover{
+        width: 290px;
+        height: 120px;
+    }
+    .carousel{
+        align-self: center;
+        margin: 0em;
+        width: 20em;
+    }
+    .btn{
+        border-color: transparent;
+        margin: -1em;
+    }
+    .btn:hover{
+        background-color: transparent;
+        color: white;
+    }
 }

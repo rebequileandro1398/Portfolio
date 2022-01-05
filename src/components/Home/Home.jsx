@@ -42,8 +42,8 @@ export const Home = () => {
                         </div>
                         </div>
                         <div className={styles.container}>
-                            <h1>Acerca de mí</h1>
-                            <p style={{fontSize: '1.4em'}}>Soy un desarrollador full-stack orientado al front-end.<br/>
+                            <h2 className={styles.title}>Acerca de mí</h2>
+                            <p className={styles.content}>Soy un desarrollador full-stack orientado al front-end.<br/>
                                 Realice el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologías  
                                 que se manejan actualmente en el mundo IT. <br/>
                                 <br/>

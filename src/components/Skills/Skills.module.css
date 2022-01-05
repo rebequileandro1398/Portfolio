@@ -36,3 +36,18 @@
         margin-left: 1em;
     }
 }
+@media (max-width: 550px){
+    .container{
+        width: 21em;
+        height: 6em;
+        align-self: center;
+        margin-left: 1em;
+    }
+    .image{
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+}
