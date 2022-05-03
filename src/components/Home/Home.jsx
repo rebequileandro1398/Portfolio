@@ -42,11 +42,18 @@ export const Home = () => {
                         </div>
                         </div>
                         <div className={styles.container}>
-                            <h2 className={styles.title}>Acerca de mí</h2>
-                            <p className={styles.content}>Soy un desarrollador Full Stack orientado en Frontend.<br/>
-                                Realice el Bootcamp de Soy Henry, el cual me llevo a conocer las ultimas tecnologías  
-                                que se manejan actualmente en el mundo IT. <br/>
-                                <br/>
+                            <div>
+                                <h2 className={styles.title}>Acerca de</h2>
+                                <p className={styles.content}>
+                                    Hola mi nombre es Leandro Rebequi soy desarrollador Full Stack (P.E.R.N), 
+                                    una gran parte de mis conocimiento los adquirí en Henry, una academia que 
+                                    se dedica a formar y preparar desarrolladores para el mundo laboral, 
+                                    otra parte los conseguí por mi propia cuenta por curiosidad o por la 
+                                    necesidad de incorporar otras herramientas a un proyecto.
+
+                                </p>
+                            </div>
+                            <p className={styles.contentFtr}>
                                 A continuación podrás encontrar algunos proyectos en los que he trabajado,
                                 clickea sobre el nombre para ver mas detalles .
                             </p>

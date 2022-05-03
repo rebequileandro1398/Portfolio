@@ -16,6 +16,9 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: rgba(117, 117, 117, 0.062);
     border-radius: .6em;
     width: 40em;
@@ -94,7 +97,9 @@
 .content{
     font-size: 1.4em;
 }
-
+.contentFtr{
+    color: rgb(153, 153, 153);
+}
 
 @media (max-width: 950px) {
     .general{
