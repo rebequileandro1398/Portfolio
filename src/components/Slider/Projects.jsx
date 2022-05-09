@@ -26,6 +26,17 @@ export const Items = [
         del Clima OpenWeather`
     },
     {
+        src: "https://www.youtube.com/embed/QG-LvFTg8rE",
+        alt:'proyecto 5',
+        name:'Chat Room',
+        web:"https://chat-room-b3f57.web.app/",
+        repo:"https://github.com/rebequileandro1398/chat-room",
+        id: "5",
+        desc:`Esta es una aplicación web creada con React y Firebase en la cual podrás 
+        chatear y conocer gente aleatoria sin necesidad de registrarte, se pueden crear otras
+         salas, cambiar el color con el que apareces en el chat y enviar emojis`
+    },
+    {
         src: "https://www.youtube.com/embed/WDtV_DV-DzQ",
         alt:'proyecto 1',
         name:'PI-Countries',
