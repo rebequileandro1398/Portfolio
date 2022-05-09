@@ -53,6 +53,7 @@
     height: 359px;
     margin-bottom: .5em;
     transition: 0.4s;
+    border-radius: .4rem;
 }
 .frame:hover{
     width: 670px;
